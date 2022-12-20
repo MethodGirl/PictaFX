@@ -1,2 +1,55 @@
 /*========== Desktop First ==========*/
-/* Large Devices, Wide Screens */
+/* Large Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+    #main  {
+        width: 1180px;
+    }
+
+    #main video {
+        max-width: 880px;
+    }
+
+    #main-section .features__list {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        grid-auto-rows: minmax(93px, auto);
+        gap: 100px 135px;
+        list-style-type: none;
+        padding: 0px;
+        margin-bottom: 91px;
+    }
+
+    #main .subtitle {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #main-section .features__item {
+        padding: 0px;
+        margin: 0px;
+        padding-left: 50px;
+        height: unset;
+        width: unset;
+    }
+
+    #main-section .features__title {
+        font-size: 36px;
+    }
+
+    #main-section .features__description {
+        font-size: 25px;
+    }
+
+    #main-section ::before {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -60px;
+    }
+
+    #footer {
+        width: 1180px;
+    }
+
+}

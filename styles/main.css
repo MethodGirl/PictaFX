@@ -9,7 +9,7 @@
 html, body {
     height: 100%;
     font-family: "et-book-bold-line-figures";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 14px;
     color: #000000;
@@ -41,6 +41,7 @@ html, body {
     display: flex;
     list-style: none;
     padding: 0;
+    font-size: 20px;
 }
 
 .main-nav__list .site-list__item {
@@ -53,7 +54,7 @@ html, body {
     position: absolute;
     left: 0;
     margin-left: 20px;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 a {
@@ -74,7 +75,7 @@ a {
 .subtitle {
     width: 726px;
     height: auto;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 28px;
     margin-left: auto;
     margin-right: auto;
@@ -167,7 +168,7 @@ h4 {
 }
 
 .features__description{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -252,6 +253,7 @@ h4 {
 
 .author-blockquote {
     display: flex;
+    justify-content: center;
 }
 
 .author{
@@ -276,6 +278,11 @@ h4 {
     font-size: 15px;
     margin-left: 55px;
     margin-bottom: 20px;
+}
+
+.vacancies-section {
+    margin: auto;
+    max-width: 1200px;
 }
 
 .job-title{
