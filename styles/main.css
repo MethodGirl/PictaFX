@@ -29,6 +29,14 @@ html, body {
     position: relative;
 }
 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
 
 .main-nav__wrapper {
     display: flex;
@@ -435,3 +443,5 @@ h4 {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  

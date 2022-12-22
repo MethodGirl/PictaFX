@@ -2,16 +2,25 @@
 <html class="page" lang="ru">
 
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Picta FX</title>
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/adaptive.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
 </head>
 
 <body class="page__body">
-    <header class="main-header">
+    <header class="main-header" id="header">
         <a href="index.html" class="main-header__logo">PictaFX</a>
         <nav class="main-nav">
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
             <div class="main-nav__wrapper">
                 <ul class="main-nav__list">
                     <li class="site-list__item">
@@ -45,7 +54,7 @@
                 </video>
                 <div class="video__play-icon">
                     <div class="video__play-triangle"></div>
-                  </div>
+                </div>
             </div>
         </div>
         <section class="main-section" id="main-section">
@@ -102,11 +111,12 @@
                         <div class="vacancy-item__layout">
                             <h3 class="vacancy-item__header">Product Manager</h3>
                             <div class="vacancy-item__options">
-                            <span class="vacancy-item__location">Lagos, Nigeria</span>
-                            <span class="vacancy-item__time">Full time</span>
-                            <div class="vacancy-item__arrow-icon">
-                                <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
-                            </div>
+                                <span class="vacancy-item__location">Lagos, Nigeria</span>
+                                <span class="vacancy-item__time">Full time</span>
+                                <div class="vacancy-item__arrow-icon">
+                                    <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px"
+                                        height="26px">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -116,11 +126,11 @@
                     <div class="vacancy-item__layout">
                         <h3 class="vacancy-item__header">Marketing Director</h3>
                         <div class="vacancy-item__options">
-                        <span class="vacancy-item__location">Lagos, Nigeria</span>
-                        <span class="vacancy-item__time">Full time</span>
-                        <div class="vacancy-item__arrow-icon">
-                            <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
-                        </div>
+                            <span class="vacancy-item__location">Lagos, Nigeria</span>
+                            <span class="vacancy-item__time">Full time</span>
+                            <div class="vacancy-item__arrow-icon">
+                                <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,11 +140,11 @@
                     <div class="vacancy-item__layout">
                         <h3 class="vacancy-item__header">Financial Analyst</h3>
                         <div class="vacancy-item__options">
-                        <span class="vacancy-item__location">Lagos, Nigeria</span>
-                        <span class="vacancy-item__time">Full time</span>
-                        <div class="vacancy-item__arrow-icon">
-                            <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
-                        </div>
+                            <span class="vacancy-item__location">Lagos, Nigeria</span>
+                            <span class="vacancy-item__time">Full time</span>
+                            <div class="vacancy-item__arrow-icon">
+                                <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -144,11 +154,11 @@
                     <div class="vacancy-item__layout">
                         <h3 class="vacancy-item__header">UI/UX Designer</h3>
                         <div class="vacancy-item__options">
-                        <span class="vacancy-item__location">Lagos, Nigeria</span>
-                        <span class="vacancy-item__time">Full time</span>
-                        <div class="vacancy-item__arrow-icon">
-                            <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
-                        </div>
+                            <span class="vacancy-item__location">Lagos, Nigeria</span>
+                            <span class="vacancy-item__time">Full time</span>
+                            <div class="vacancy-item__arrow-icon">
+                                <img src="../img/Arrow.svg" class="vacancy-item__arrow-img" width="28px" height="26px">
+                            </div>
                         </div>
                     </div>
             </a>
@@ -158,90 +168,90 @@
             </div>
             </div>
         </section>
-        </main>
-        <footer class="main-footer" id="footer">
-            <div class="about">
-                <h3 class="footer-name">About</h3>
-                <ul class="footer__list site-list">
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">About</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Services</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Features</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Team</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="portfolio">
-                <h3 class="footer-name">Portfolio</h3>
-                <ul class="footer__list site-list">
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Web Apps</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Websites</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">IOS Apps</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Logo Design</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Illustration</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="consultancy">
-                <h3 class="footer-name">Consultancy</h3>
-                <ul class="footer__list site-list">
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">About</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Services</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Features</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Team</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Team</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="contact-us">
-                <h3 class="footer-name">Contact us</h3>
-                <ul class="footer__list site-list">
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Contacts</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">Team members</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer">History</a>
-                    </li>
-                    <li class="footer-list__item">
-                        <a href="#" class="a__footer__mail">info@pictaFX.com</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social-network">
-                <a href="#" class="social facebook"><span class="visually-hidden">Facebook</span></a>
-                <a href="#" class="social twitter"><span class="visually-hidden">Twitter</span></a>
-                <a href="#" class="social instagram"><span class="visually-hidden">Instagram</span></a>
-                <a href="#" class="social pinterest"><span class="visually-hidden">Pinterest</span></a>
-            </div>
-        </footer>
-    
+    </main>
+    <footer class="main-footer" id="footer">
+        <div class="about">
+            <h3 class="footer-name">About</h3>
+            <ul class="footer__list site-list">
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">About</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Services</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Features</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Team</a>
+                </li>
+            </ul>
+        </div>
+        <div class="portfolio">
+            <h3 class="footer-name">Portfolio</h3>
+            <ul class="footer__list site-list">
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Web Apps</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Websites</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">IOS Apps</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Logo Design</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Illustration</a>
+                </li>
+            </ul>
+        </div>
+        <div class="consultancy">
+            <h3 class="footer-name">Consultancy</h3>
+            <ul class="footer__list site-list">
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">About</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Services</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Features</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Seo</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Custom plans</a>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-us">
+            <h3 class="footer-name">Contact us</h3>
+            <ul class="footer__list site-list">
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Contacts</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">Team members</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer">History</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#" class="a__footer__mail">info@pictaFX.com</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-network">
+            <a href="#" class="social facebook"><span class="visually-hidden">Facebook</span></a>
+            <a href="#" class="social twitter"><span class="visually-hidden">Twitter</span></a>
+            <a href="#" class="social instagram"><span class="visually-hidden">Instagram</span></a>
+            <a href="#" class="social pinterest"><span class="visually-hidden">Pinterest</span></a>
+        </div>
+    </footer>
+    <script src="../js/common.js"></script>
 </body>
 
 </html>
