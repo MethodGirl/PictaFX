@@ -165,7 +165,7 @@ video {
 
 .features__item {
     width: 240px;
-    height: 138px;
+    min-height: 138px;
     padding: 0px;
     margin: 0px;
     padding-left: 50px;
@@ -283,7 +283,7 @@ h4 {
 }
 
 .name-of-author{
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 55px;
     margin-bottom: 20px;
 }
@@ -295,7 +295,7 @@ h4 {
 
 .job-title{
     margin-left: 55px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .jobs {
