@@ -7,19 +7,31 @@
 }
 
 html, body {
-    height: 100%;
     font-family: "et-book-bold-line-figures";
     font-size: 18px;
     font-weight: 400;
     line-height: 14px;
     color: #000000;
+    height: 100%;
     margin: 0;
 }
 
-.first-screen {
-    display: grid;
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
+h4 {
+    font-size: 18px;
+}
+
+video {
+    width: 100%;;
+    border-radius: 40px;
+}
+
+
+/* Header */
 .main-header {
     display: flex;
     justify-content: center;
@@ -27,6 +39,15 @@ html, body {
     margin: 0 auto;
     width: 1200px;
     position: relative;
+}
+
+.main-header__logo {
+    font-size: 28px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
 }
 
 .main-nav {
@@ -43,81 +64,67 @@ html, body {
     justify-content: center;
 }
 
-
 .main-nav__list {
-    justify-content: space-around;
-    display: flex;
-    list-style: none;
-    padding: 0;
     font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;  
 }
 
 .main-nav__list .site-list__item {
     margin: 0 50px;
 }
 
-.main-header__logo {
-    text-decoration: none;
-    margin-right: auto;
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-    font-size: 28px;
-}
 
-a {
-    color: #000000;
-    text-decoration: none;
+/* Main Container*/
+.first-screen {
+    display: grid;
 }
 
 .headline {
+    font-size: 43px;
+    line-height: 52px;
     text-align: center;
     height: auto;
-    line-height: 52px;
-    margin-left: auto;
     width: 650px;
-    font-size: 43px;
     margin-right: auto;
+    margin-left: auto;   
 }
 
 .subtitle {
-    width: 726px;
-    height: auto;
     font-size: 20px;
     line-height: 28px;
+    text-align: center;
+    width: 726px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     margin-top: -15px;
 }
 
 .demo {
+    text-align: center;
+    color: white;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     padding: 15px;
     border-radius: 8px;
-    color: white;
     background-color: royalblue;
 }
 
 .first-screen_video {
     display: flex;
-    margin: 20px auto;
     justify-content: center;
+    margin: 20px auto;
     position: relative;
 }
-
-video {
-    width: 100%;;
-    border-radius: 40px;
-}
-
 
 .video__play-icon {
     height: 44px;
     width: 44px;
     padding: 32px;
+    margin: auto;
     border-radius: 50%;
     border: 3px solid #fff;
     background: rgba(0, 0, 0, 0.8);
@@ -126,7 +133,6 @@ video {
     right: 0;
     top: 0;
     bottom: 0;
-    margin: auto;
 }
 
 .video__play-triangle {
@@ -139,13 +145,13 @@ video {
 }
 
 .desc {
-    margin-right: auto;
-    width: 388px;
-    text-align: center;
     font-size: 43px;
+    line-height: 47px;
+    text-align: center;
+    width: 388px;
     height: auto;
     margin-left: auto;
-    line-height: 47px;
+    margin-right: auto;
 }
 
 .features {
@@ -153,34 +159,25 @@ video {
 }
 
 .features__list {
+    display: grid;
     grid-template-columns: repeat(3, 290px);
     grid-auto-rows: minmax(93px, auto);
     gap: 60px 70px;
-    display: grid;
+    justify-content: center;
     list-style-type: none;
     padding: 0px;
     margin-bottom: 91px;
-    justify-content: center;
 }
 
 .features__item {
     width: 240px;
     min-height: 138px;
     padding: 0px;
-    margin: 0px;
     padding-left: 50px;
+    margin: 0px;
 }
 
-h4 {
-    font-size: 18px;
-}
-
-.features__description{
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.features__item--dashboard {
+.features__item--finances {
     position: relative;
 }
 
@@ -258,7 +255,12 @@ h4 {
     margin-left: -50px;
 }
 
+.features__description{
+    font-size: 18px;
+    line-height: 30px;
+}
 
+/* Author Blockquote*/
 .author-blockquote {
     display: flex;
     justify-content: center;
@@ -275,11 +277,11 @@ h4 {
 
 .blockquote{
     font-size: 30px;
-    margin-left: 55px;
+    line-height: 60px;
     text-align: start;
     width: 440px;
     height: auto;
-    line-height: 60px;
+    margin-left: 55px;
 }
 
 .name-of-author{
@@ -288,20 +290,22 @@ h4 {
     margin-bottom: 20px;
 }
 
+
+/* Vacancies Section */
 .vacancies-section {
     margin: auto;
     max-width: 1200px;
 }
 
-.job-title{
-    margin-left: 55px;
-    font-size: 18px;
+.jobs {
+    font-size: 43px;
+    text-align: center;
+    margin: 50px auto;
 }
 
-.jobs {
-    text-align: center;
-    font-size: 43px;
-    margin: 50px auto;
+.job-title{
+    font-size: 18px;
+    margin-left: 55px;
 }
 
 .vacancies-list{
@@ -316,19 +320,19 @@ h4 {
     border-radius: 10px;
 }
 
+.vacancy-item__header {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 .vacancy-item__options {
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
     margin-left: 20px;
-    font-size: 17px;
-}
-
-.vacancy-item__header {
-    margin-left: 20px;
-    margin-top: 40px;
-    font-size: 24px;
 }
 
 .vacancy-item__location {
@@ -365,19 +369,21 @@ h4 {
 }
 
 .pagination-show-more{
-    margin: 40px auto;
     text-align: center;
+    color: white;
+    margin: 40px auto;
     padding: 15px;
     border-radius: 8px;
-    color: white;
     background-color: royalblue;
 }
 
+
+/* Footer */
 .main-footer {
-    background-color: #496693;
     display: flex;
     justify-content: space-around;
     color: white;
+    background-color: #496693;
     padding-left: 40px;
 }
 
@@ -386,9 +392,9 @@ h4 {
 }
 
 .footer__list {
-    list-style-type: none;
-    line-height: 30px;
     font-size: 16px;
+    line-height: 30px;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -433,6 +439,8 @@ h4 {
     height: 23px;
 }
 
+
+/* Visually Hidden */
 .visually-hidden {
     position: absolute;
     width: 1px;
