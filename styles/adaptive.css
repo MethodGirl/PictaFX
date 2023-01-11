@@ -1,5 +1,5 @@
 /*========== Desktop First ==========*/
-/* Large Devices, Full HD*/
+/* Extra Large Devices, Full HD*/
 @media only screen and (max-width: 1920px) {
     #main video {
         max-width: 1050px;
@@ -12,7 +12,7 @@
 }
 
 
-/* Large Devices, Desktops */
+/*Extra Large Devices, Large Desktops */
 @media only screen and (max-width: 1200px) {
     #main video {
         max-width: 950px;
@@ -54,7 +54,7 @@
 }
 
 
-/* Medium Devices */
+/* Large Devices, Desktops  */
     @media only screen and (max-width: 1080px) {
      #main video {
         max-width: 720px;
@@ -101,7 +101,7 @@
 }
 
 
-/* Medium Devices */
+/* Large Devices, Desktops */
 @media only screen and (max-width: 992px) {
     #main video {
        max-width: 720px;
@@ -202,8 +202,7 @@
     }
 }
 
-
-/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
 @media only screen and (max-width: 768px) {
 
     #header {
@@ -430,11 +429,11 @@
 
 
 
-/* Custom, Iphone */
+/* Small Devices, Tablets */
 
 @media only screen and (max-width: 680px) { 
     #main video {
-        max-width: 550px;
+        max-width: 500px;
     }
 
     #main .subtitle {
@@ -513,7 +512,7 @@
     }
 
     #main-section .features__title {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
         line-height: 40px;
         margin-bottom: 0;
@@ -536,5 +535,166 @@
         height: auto;
         line-height: 35px;
         margin-top: 0px;
+    }
+}
+
+/* Small Devices, Phones */
+
+@media only screen and (max-width: 540px) { 
+    #main video {
+        max-width: 350px;
+    }
+
+    #main {
+        width: unset;
+    }
+
+    .main-header__logo {
+        text-decoration: none;
+        position: absolute;
+        font-size: 45px;
+    }
+
+    .video__play-triangle {
+        width: 0;
+        height: 0;
+        margin-top: -10px;
+        margin-left: -3px;
+        border-style: solid;
+        border-width: 13px 0 13px 18px;
+        border-color: transparent transparent transparent #ffffff;
+    }
+
+    .video__play-icon {
+        height: 5px;
+        width: 5px;
+        padding: 25px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -10px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .headline {
+        text-align: center;
+        line-height: 40px;
+        margin: 20px 10px 15px 20px;
+        width: auto;
+        font-size: 30px;
+    }
+
+    .author-blockquote {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .desc {
+        margin-right: 10px;
+        width: auto;
+        text-align: center;
+        font-size: 40px;
+        height: auto;
+        margin-left: 10px;
+        line-height: 47px;
+    }
+
+    #main-section .features__description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .a__footer__mail {
+        color: #e928bf;
+        }
+}
+
+
+
+/* Custom, Iphone */
+
+@media only screen and (max-width: 400px) { 
+    #main video {
+        max-width: 280px;
+    }
+
+    #main {
+        width: unset;
+    }
+
+    .author-blockquote {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main-section .features__title {
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+
+    .headline {
+        text-align: center;
+        line-height: 40px;
+        margin: 10px;
+        width: auto;
+        font-size: 30px;
+    }
+
+    #main-section .features__description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .desc {
+        margin-right: 10px;
+        text-align: center;
+        font-size: 36px;
+        height: auto;
+        width: auto;
+        margin-left: 10px;
+        line-height: 47px;
+    }
+
+    .main-header__logo {
+        text-decoration: none;
+        position: absolute;
+        font-size: 40px;
+    }
+
+    .video__play-triangle {
+        width: 0;
+        height: 0;
+        margin-top: -6px;
+        margin-left: -2px;
+        border-style: solid;
+        border-width: 8px 0 8px 13px;
+        border-color: transparent transparent transparent #ffffff;
+    }
+
+    .video__play-icon {
+        height: 5px;
+        width: 5px;
+        padding: 15px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -10px;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .a__footer__mail {
+        color: #e910cc;
     }
 }
