@@ -76,6 +76,10 @@ video {
     margin: 0 50px;
 }
 
+.site-list__link:hover {
+    text-decoration: underline;
+}
+
 
 /* Main Container*/
 .first-screen {
@@ -320,10 +324,20 @@ video {
     border-radius: 10px;
 }
 
+.vacancy-item__layout:hover {
+    border-style: groove;
+    border-color: royalblue;;
+    border-radius: 10px;
+}
+
 .vacancy-item__header {
     font-size: 24px;
     margin-left: 20px;
     margin-top: 40px;
+}
+
+.vacancy-item__header:hover {
+    text-decoration: underline;
 }
 
 .vacancy-item__options {
@@ -350,6 +364,10 @@ video {
     margin-top: -4px;
 }
 
+.vacancy-item__location:hover {
+    text-decoration: underline royalblue;
+}
+
 .vacancy-item__arrow-icon {
     margin-right: 20px;
     margin-left: auto;
@@ -362,6 +380,10 @@ video {
     position: absolute;
     margin-left: -30px;
     margin-top: -6px;
+}
+
+.vacancy-item__time:hover {
+    text-decoration: underline burlywood;;
 }
 
 .show-more {
@@ -401,6 +423,11 @@ video {
 .a__footer {
     color: rgba(255,255,255,0.5);
 }
+
+.a__footer:hover {
+    text-decoration: underline rgba(238, 215, 4, 0.719);
+}
+
 
 .a__footer__mail {
     color: rgba(238, 215, 4, 0.719);

@@ -410,6 +410,10 @@
         justify-content: space-between;
     }
     
+    .a__footer:hover {
+        text-decoration: underline #56FF56;
+    }
+
     .a__footer__mail {
         color: #56FF56;
     }
@@ -493,6 +497,10 @@
         margin-top: 0px;
     }
     
+    .a__footer:hover {
+        text-decoration: underline #56FF56;
+    }
+
     .a__footer__mail {
         color: #56FF56;
         }
@@ -568,6 +576,10 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .a__footer:hover {
+        text-decoration: underline #e928bf;;
     }
 
     .a__footer__mail {
@@ -653,6 +665,10 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .a__footer:hover {
+        text-decoration: underline #e910cc;;
     }
 
     .a__footer__mail {
