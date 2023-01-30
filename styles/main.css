@@ -364,10 +364,6 @@ video {
     margin-top: -4px;
 }
 
-.vacancy-item__location:hover {
-    text-decoration: underline royalblue;
-}
-
 .vacancy-item__arrow-icon {
     margin-right: 20px;
     margin-left: auto;
@@ -380,10 +376,6 @@ video {
     position: absolute;
     margin-left: -30px;
     margin-top: -6px;
-}
-
-.vacancy-item__time:hover {
-    text-decoration: underline burlywood;;
 }
 
 .show-more {
